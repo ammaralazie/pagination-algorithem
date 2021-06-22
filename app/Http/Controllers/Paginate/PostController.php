@@ -69,10 +69,6 @@ class PostController extends Controller
 
     public function asciicode()
     {
-        for($i=0;$i<=122;$i++){
-            $x[$i]=chr($i);
-        }//end of for i
-        dd($x);
 
     } //end of create
 

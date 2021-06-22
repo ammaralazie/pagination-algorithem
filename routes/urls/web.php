@@ -16,5 +16,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::group([],function () {
     Route::get('posts/{number_of_paginator?}', 'PostController@index')->name('posts.index');
-    Route::get('ascii/', 'PostController@asciicode')->name('posts.ascii');
+    
 });
